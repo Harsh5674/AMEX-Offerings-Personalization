@@ -1,5 +1,5 @@
 <h1 align="center">Offerings Personalization: A Predictive Approach</h1>
-<h4 align="center">AMEX Decision Science Track 2025 Campus Challenge</h4>
+<h4 align-center">AMEX Decision Science Track 2025 Campus Challenge</h4>
 
 <p align="center">
   <img alt="AMEX Challenge" src="https://img.shields.io/badge/AMEX-Decision%20Science-006fcf?style=flat-square" />
@@ -24,7 +24,7 @@ The initial phase focused on preparing the data for modeling.
 ### 2. Exploratory Data Analysis (EDA)
 An extensive EDA was performed to understand the underlying patterns, distributions, and relationships within the data. This involved visualizing feature distributions to check for skewness and identifying outliers that could impact model performance.
 
-![Histograms of Selected Features](download2.png)
+![Histograms of Selected Features](docs/download2.png)
 *Histograms show the right-skewed nature of many numerical features.*
 
 ### 3. Feature Selection
@@ -32,7 +32,7 @@ To build an efficient and effective model, a systematic feature selection proces
 * **Initial Filtering**: A correlation analysis was conducted to identify features with the strongest relationship to the target variable (customer click). The top 50 most correlated features were initially selected.
 * **Importance-Based Refinement**: A **Random Forest Classifier** was then used to evaluate the importance of these 50 features. This allowed for further refinement, narrowing the set down to the **top 20 most predictive features**.
 
-![Feature Correlation with Target](download1.png)
+![Feature Correlation with Target](docs/download1.png)
 *The heatmap was used to visualize the correlation of various features with the target variable 'y'.*
 
 ### 4. Model Training and Evaluation
@@ -48,7 +48,7 @@ The models were assessed based on their predictive accuracy and computational ef
 ## Results & Conclusion
 The gradient boosting models demonstrated superior performance, with a **maximum training accuracy of approximately 98%** achieved. The final model proves highly effective in predicting customer click probability.
 
-![Pair Plot of Key Features](download4.png)
+![Pair Plot of Key Features](docs/download4.png)
 *The pair plot illustrates the relationships between the most predictive features and the binary target variable.*
 
 By leveraging this predictive model, American Express can significantly improve its customer engagement strategy. The solution allows for data-driven personalization, ensuring that the right offers are sent to the right customers at the right time, thereby maximizing the return on investment for marketing initiatives.
